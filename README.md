@@ -4,7 +4,7 @@ This repo illustrate how to create logical volume and mount it into linux operat
 
 # Before you begin
 
-### Prerequisites package to run the command in [script example](scripts/example.sh)
+Install the package in order to run the command in [script example](scripts/example.sh)
 
 ```s
 #  Verify LVM is installed or not on the server.
@@ -47,3 +47,7 @@ lvscan
 ```
 
 <img src="imgs/example3.png">
+
+### Note : example source code take from [ibm-cloud-private-terraform-softlayer](https://github.com/pjgunadi/ibm-cloud-private-terraform-softlayer/blob/master/scripts/createfs_master.sh.tpl)
+
+### You may find out how to provision IBM Cloud Private using terraform at there
