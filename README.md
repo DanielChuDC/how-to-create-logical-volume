@@ -51,3 +51,21 @@ lvscan
 ### Note : example source code take from [ibm-cloud-private-terraform-softlayer](https://github.com/pjgunadi/ibm-cloud-private-terraform-softlayer/blob/master/scripts/createfs_master.sh.tpl)
 
 ### You may find out how to provision IBM Cloud Private using terraform at there
+
+# Another Example
+
+```
+Create local directories as follows on each IBM Cloud Private worker node, and record the IP address of each worker node where the directories are created. You will need these values in the next step.
+/k8s/data/cassandra - Cassandra persistent storage
+mkdir -p /k8s/data/cassandraCopy
+/k8s/data/zookeeper - Zookeeper persistent storage
+mkdir -p /k8s/data/zookeeperCopy
+/k8s/data/kafka - Kafka persistent storage
+mkdir -p /k8s/data/kafkaCopy
+/k8s/data/couchdb - CouchDB persistent storage
+mkdir -p /k8s/data/couchdbCopy
+/k8s/data/datalayer - Datastore persistent storage
+mkdir -p /k8s/data/datalayer
+```
+
+Please see the complete version of [example 1](scripts/example1.sh) to know how to mount the require disk above
