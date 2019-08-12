@@ -68,4 +68,11 @@ mkdir -p /k8s/data/couchdbCopy
 mkdir -p /k8s/data/datalayer
 ```
 
-Please see the complete version of [example 1](scripts/example1.sh) to know how to mount the require disk above
+- Please see the complete version of [example 1](scripts/example1.sh) to know how to mount the require disk above
+
+### How to verify the step above is successful?
+
+- Run `lvscan`
+- Run `df -Th <the directory you created>`
+
+<img src="imgs/example4.png">
