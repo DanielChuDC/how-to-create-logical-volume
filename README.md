@@ -54,6 +54,8 @@ lvscan
 
 # Another Example
 
+### Requirement: let the directory below have 10GB disk size mount on Data disk
+
 ```
 Create local directories as follows on each IBM Cloud Private worker node, and record the IP address of each worker node where the directories are created. You will need these values in the next step.
 /k8s/data/cassandra - Cassandra persistent storage
